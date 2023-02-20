@@ -1,2 +1,2 @@
 # DataVault
-DataVault.py, it is an utility to fastly cypher, decypher and generate AES keys.
+DataVault.py, an utility to fastly encode and decode files and generate AES keys.
