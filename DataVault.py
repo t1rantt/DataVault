@@ -52,7 +52,7 @@ def main():
     if args.command == "generate-key":
         generate_key(args.output)
         print(f"[*] Generated key saved here: {args.output}")
-    if args.command == "encrypt":
+    elif args.command == "encrypt":
         with open(args.key, "rb") as key_file:
             key = key_file.read()
             encrypt_image(args.file, key, args.output)
