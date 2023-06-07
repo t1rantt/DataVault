@@ -1,0 +1,4 @@
+openssl genpkey -algorithm RSA -out DataVault_priavte.pem -aes256
+openssl rsa -pubout -in DataVault_priavte.pem -out DataVault_public.pem
+
+PASS: test
